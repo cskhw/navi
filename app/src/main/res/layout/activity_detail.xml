@@ -47,7 +47,7 @@
                         android:layout_width="25dp"
                         android:layout_height="25dp"
                         android:layout_marginBottom="10dp"
-                        android:layout_marginLeft="15dp"
+                        android:layout_marginLeft="35dp"
                         android:layout_marginTop="10dp"
                         android:background="@drawable/detail_edit"
                         android:text="" />
@@ -99,7 +99,8 @@
                     android:gravity="center_vertical"
                     android:padding="2dp"
                     android:text="TextView"
-                    android:textSize="25dp" />
+                    android:textSize="30dp"
+                    android:fontFamily="@font/nanumpen"/>
 
 
             </LinearLayout>
@@ -122,7 +123,9 @@
                 <TextView
                     android:id="@+id/diaryDetailContent"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:textSize="25dp"
+                    android:fontFamily="@font/nanumpen"/>
             </ScrollView>
 
 

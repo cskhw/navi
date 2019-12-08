@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android"
+    >//디자인 요소
+    <item android:state_enabled="true">//상태
+        <shape>//모양
+            <solid android:color="@android:color/holo_blue_light">//색
+
+            </solid>
+
+        </shape>
+    </item>
+
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="#ffff00">
+
+            </solid>
+        </shape>
+    </item>
+
+
+
+
+
+    </selector>

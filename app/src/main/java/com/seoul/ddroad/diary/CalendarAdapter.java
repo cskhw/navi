@@ -62,6 +62,7 @@ public class CalendarAdapter extends CaldroidGridAdapter {
             }
           //  FontsOverride.setDefaultFont(context, "MONOSPACE", "font/nanumpen.ttf");
            /* 폰트바꾸는거같음
+
             if (cellView is  ViewGroup) {
 //            context?.updateTextColors(cellView)
                 context?.initTextSize(cellView, context)

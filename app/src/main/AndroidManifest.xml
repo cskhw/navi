@@ -45,7 +45,8 @@
             <meta-data android:name="android.support.PARENT_ACTIVITY"
                 android:value=".diary.DiaryActivity" />
         </activity>
-        <activity android:name=".intro.LoginActivity"/>
+        <activity android:name=".intro.LoginActivity"
+            android:theme="@style/NoTile02"/>
     </application>
 
 </manifest>

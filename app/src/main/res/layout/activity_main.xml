@@ -29,10 +29,10 @@
             android:paddingLeft="20dp"
             android:paddingRight="20dp"
             android:tag="1"
-            android:src="@drawable/fragment_home"
-            android:background="@color/btnbg_color"
+            android:src="@drawable/sun"
+            android:background="@android:color/holo_blue_dark"
             android:scaleType="centerInside"
-            android:text="먼지" />
+            android:text="날씨" />
 
         <ImageButton
             android:id="@+id/btn_diary"
@@ -42,7 +42,7 @@
             android:paddingLeft="20dp"
             android:paddingRight="20dp"
             android:src="@drawable/fragment_calendar"
-            android:background="@color/btnbg_color"
+            android:background="@android:color/holo_blue_dark"
             android:scaleType="centerInside"
             android:tag="2"
             android:text="다이어리" />
@@ -54,8 +54,8 @@
             android:layout_weight="1"
             android:paddingLeft="20dp"
             android:paddingRight="20dp"
-            android:src="@drawable/fragment_setting"
-            android:background="@color/btnbg_color"
+            android:src="@drawable/group"
+            android:background="@android:color/holo_blue_dark"
             android:scaleType="centerInside"
             android:tag="3"
             android:text="설정" />

@@ -119,7 +119,7 @@ public class DetailActivity extends AppCompatActivity {
                                         // 확인시 처리 로직
 
                                         sqlLiteDao.deleteDiary(diaryId);
-                                        Toast.makeText(getApplicationContext(),"삭제 되었습니다.",Toast.LENGTH_LONG).show();
+                                        Toast.makeText(getApplicationContext(),"삭제되었습니다.",Toast.LENGTH_LONG).show();
                                         onBackPressed();
                                         finish();
 

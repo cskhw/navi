@@ -55,36 +55,20 @@ public class SpinnerAdapter  extends ArrayAdapter<String> {
             holder = (ViewHolder)row.getTag();
         }
 
-        //xml weather_item_array 랑 갯수 마춰야합니다
-        for (int i=0; i < 5 ; i++){
+        //xml weather_item_array 랑 갯수 맞춰야합니다
+        for (int i=0; i < 6 ; i++){
             if(position == 1 ){
-                holder.imageView1.setImageResource(R.drawable.bichon1);
+                holder.imageView1.setImageResource(R.drawable.sunny);
             }else if(position == 2){
-                holder.imageView1.setImageResource(R.drawable.bichon2);
-            }else if(position == 3){
-                holder.imageView1.setImageResource(R.drawable.bichon3);
-            }else if(position == 4){
-                holder.imageView1.setImageResource(R.drawable.bichon4);
-            }else if(position == 5){
-                holder.imageView1.setImageResource(R.drawable.bichon5);
-            }else if(position == 6){
-                holder.imageView1.setImageResource(R.drawable.sun);
-            }else if(position == 7){
                 holder.imageView1.setImageResource(R.drawable.clouds);
-            }else if(position == 8){
+            }else if(position == 3){
                 holder.imageView1.setImageResource(R.drawable.cludysun);
-            }else if(position == 9){
+            }else if(position == 4){
                 holder.imageView1.setImageResource(R.drawable.drop);
-            }else if(position == 10){
+            }else if(position == 5){
                 holder.imageView1.setImageResource(R.drawable.flash);
-            }else if(position == 11){
+            }else if(position == 6){
                 holder.imageView1.setImageResource(R.drawable.snowflake);
-            }else if(position == 12){
-                holder.imageView1.setImageResource(R.drawable.hospital);
-            }else if(position == 13){
-                holder.imageView1.setImageResource(R.drawable.pills);
-            }else if(position == 14){
-                holder.imageView1.setImageResource(R.drawable.diary_walk);
             }else{
                 holder.imageView1.setImageResource(0);
             }

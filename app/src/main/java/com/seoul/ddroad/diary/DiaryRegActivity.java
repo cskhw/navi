@@ -157,34 +157,18 @@ public class DiaryRegActivity extends AppCompatActivity{
                     Log.e("ddroad",e.getMessage());
                 }
             }
-            if("@drawable/bichon1".equals(imgstr) ){
+            if("@drawable/sunny".equals(imgstr) ){
                 spinner.setSelection(1);
-            }else if("@drawable/bichon2".equals(imgstr)){
-                spinner.setSelection(2);
-            }else if("@drawable/bichon3".equals(imgstr)){
-                spinner.setSelection(3);
-            }else if("@drawable/bichon4".equals(imgstr)){
-                spinner.setSelection(4);
-            }else if("@drawable/bichon5".equals(imgstr)){
-                spinner.setSelection(5);
-            }else if("@drawable/sun".equals(imgstr)){
-                spinner.setSelection(6);
             }else if("@drawable/cloudy".equals(imgstr)){
-                spinner.setSelection(7);
+                spinner.setSelection(2);
             }else if("@drawable/cludysun".equals(imgstr)){
-                spinner.setSelection(8);
+                spinner.setSelection(3);
             }else if("@drawable/drop".equals(imgstr)){
-                spinner.setSelection(9);
+                spinner.setSelection(4);
             }else if("@drawable/flash".equals(imgstr)){
-                spinner.setSelection(10);
+                spinner.setSelection(5);
             }else if("@drawable/snowflake".equals(imgstr)){
-                spinner.setSelection(11);
-            }else if("@drawable/hospital".equals(imgstr)){
-                spinner.setSelection(12);
-            }else if("@drawable/pills".equals(imgstr)){
-                spinner.setSelection(13);
-            }else if("@drawable/diary_walk".equals(imgstr)){
-                spinner.setSelection(14);
+                spinner.setSelection(6);
             }
 
             if(imgDirStr != null && !"".equals(imgDirStr)){
@@ -296,33 +280,17 @@ public class DiaryRegActivity extends AppCompatActivity{
                // Toast.makeText(DiaryRegActivity.this,"선택된 아이템 : "+spinner.getItemAtPosition(position),Toast.LENGTH_SHORT).show();
                // Toast.makeText(DiaryRegActivity.this,"선택된 아이템 : "+position,Toast.LENGTH_SHORT).show();
                 if(position == 1 ){
-                    mImgStr = "@drawable/bichon1";
+                    mImgStr = "@drawable/sunny";
                 }else if(position == 2){
-                    mImgStr = "@drawable/bichon2";
-                }else if(position == 3){
-                    mImgStr = "@drawable/bichon3";
-                }else if(position == 4){
-                    mImgStr = "@drawable/bichon4";
-                }else if(position == 5){
-                    mImgStr = "@drawable/bichon5";
-                }else if(position == 6){
-                    mImgStr = "@drawable/sun";
-                }else if(position == 7){
                     mImgStr = "@drawable/clouds";
-                }else if(position == 8){
+                }else if(position == 3){
                     mImgStr = "@drawable/cludysun";
-                }else if(position == 9){
+                }else if(position == 4){
                     mImgStr = "@drawable/drop";
-                }else if(position == 10){
+                }else if(position == 5){
                     mImgStr = "@drawable/flash";
-                }else if(position == 11){
+                }else if(position == 6){
                     mImgStr = "@drawable/snowflake";
-                }else if(position == 12){
-                    mImgStr = "@drawable/hospital";
-                }else if(position == 13){
-                    mImgStr = "@drawable/pills";
-                }else if(position == 14){
-                    mImgStr = "@drawable/diary_walk";
                 }else{
                     mImgStr = "";
                 }
